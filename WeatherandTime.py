@@ -25,7 +25,7 @@ def weather(city, weather_inf) : # weather_inf= 1 for weather, 2 for temperature
     if weather_inf==1:
         return print(weather)
     elif weather_inf==2 :
-        return print(int(temperature-273.15)+deg_sym)
+        return print(str(int(temperature-273.15))+deg_sym)
     else:
         return print("Wrong Argument")
 
