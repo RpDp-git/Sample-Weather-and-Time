@@ -43,5 +43,5 @@ Saturday, Dec 30
 Rain
 
 >>>weather("Leipzig,2")
-4
+4°
 '''
